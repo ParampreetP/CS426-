@@ -1,0 +1,40 @@
+
+:::::HOW TO COMPILE AND RUN CODE ON THE COOJA SIMULATOR::::
+
+
+In the Prog426 file, open terminal and enter the command
+"make telosb"
+
+This will compile the code and create a "build" file. 
+
+Open the "build" file and then open the "telosb" file. In the "telosb" file there is a "main.exe". This executable will be used to run the program in the cooja simulator. 
+
+
+Now we can start the cooja simulator.
+First open the "cooja" file and in terminal type in the command "sudo ant run"
+
+Once Cooja is open, go to file -> new simulation and enter a simulation name and click "create"
+
+Once a new simulation is created. Go to 
+		Motes -> add motes -> create new mote type -> sky mote..
+
+When the "Create Mote Type: compile contiki for sky" window is open, click "browse" and search for the executable "main.exe" that we created. Then click "create"
+
+a "Add motes (sky mote type #sky1)" window will open. Since we want to 2 motes, change "Number of new motes" to 2. And then click "add motes"
+
+In the network window you will see two motes. Make sure the two motes are close enough to each other otherwise it will not work.
+
+In the simulation control window change the "speed limit" to 100%
+
+We can now start the simulation by clicking "start"
+
+
+
+
+:::::::::::academic honesty statement:::::::::::::::::::
+
+I have done this assignment completely on my own. I have not copied it, nor have I given my
+solution to anyone else. I understand that if I am involved in plagiarism or cheating I will have to
+sign an official form that I have cheated and that this form will be stored in my official university
+record. I also understand that I will receive a grade of 0 for the involved assignment for my first
+offense and that I will receive a grade of “F” for the course for any additional offense.
